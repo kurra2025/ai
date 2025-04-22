@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Summer Camp 2025</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #fefae0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #f77f00;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #d62828;
+        }
+        ul {
+            list-style-type: square;
+        }
+        .register-form {
+            background: #fff3b0;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 400px;
+            margin: auto;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background: #003049;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background: #fcbf49;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to the Summer Camp 2025!</h1>
+    <p>Join us for fun, adventure, and lifelong memories!</p>
+</header>
+
+<section>
+    <h2>About the Camp</h2>
+    <p>Our summer camp offers a variety of exciting activities for kids aged 7-15. With expert instructors, great food, and a safe environment, your child is in for an unforgettable summer.</p>
+</section>
+
+<section>
+    <h2>Activities</h2>
+    <ul>
+        <li>Swimming</li>
+        <li>Outdoor Games</li>
+        <li>Crafts & Painting</li>
+        <li>Science Experiments</li>
+        <li>Campfire Nights</li>
+    </ul>
+</section>
+
+<section class="register-form">
+    <h2>Register Now</h2>
+    <form>
+        <label for="name">Child's Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="7" max="15" required>
+
+        <label for="parent">Parent/Guardian Name:</label>
+        <input type="text" id="parent" name="parent" required>
+
+        <label for="email">Parent's Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Any special requirements?</label>
+        <textarea id="message" name="message" rows="3"></textarea>
+
+        <button type="submit">Submit Registration</button>
+    </form>
+</section>
+
+<footer>
+    <p>Contact us: summerfun@camp.com | +1-234-567-8901</p>
+</footer>
+
+</body>
+</html>
